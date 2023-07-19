@@ -7,7 +7,7 @@ app.listen(PORT,()=>{
 })
 
 app.get('/',(req,res)=>{
-    res.send("This is API Homepage")
+    res.send("This is API Home")
 })
 app.get('/about',(req,res)=>{
     res.send("This is API about")
