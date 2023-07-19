@@ -12,5 +12,8 @@ app.get('/',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.send("This is API about")
 })
+app.get('/product',(req,res)=>{
+    res.send("This is API product")
+})
 
 module.exports = app
